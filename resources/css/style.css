@@ -1,0 +1,51 @@
+/* This is the general stylying */
+
+body {
+  font-size: 18px;
+  font-family: Helvetica;
+  margin: 1px solid black;
+}
+
+
+/* This is the Logo styling */
+
+.logo-container{
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 3rem;
+  padding: 0 auto;
+  border-left: auto;
+  border-right: auto;
+  margin: 1px solid red;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo img {
+  display: flex;
+  height: 1.5rem;
+  width: auto;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  margin: 1px solid blue;
+}
+
+.logo p {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  margin: 1px solid white;
+  color: white;
+}
+
+/* This is the Main Banner styling */
