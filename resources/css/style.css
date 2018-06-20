@@ -261,3 +261,20 @@ footer {
 footer span {
   width: 960px;
 }
+
+/* This is the media query section */
+
+@media only screen and (max-width: 1024px) {
+  .main-banner {
+    margin-left: 0rem;
+  }
+  .main-banner span {
+    font-size: 0.75rem;
+  }
+  .main-banner p {
+    font-size: 1.5rem;
+  }
+  ul {
+    display: none;
+  }
+}
