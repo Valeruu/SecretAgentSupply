@@ -96,14 +96,150 @@ nav {
 
 ul {
   display: flex;
+  justify-content: space-between;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 li {
   display: flex;
+  justify-content: center;
   align-items: center;
-  width: 3.5rem;
-  padding-left: 9rem;
+  width: 3rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   color: white;
+}
+
+/* This is the styling for the Agent Tech Section */
+
+.agent-tech {
+  width: 960px;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This is the styling for the Product Grid Section */
+
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  padding-top: 3rem;
+}
+
+.product-grid div {
+  display: flex;
+  width: 30%;
+  height: 15rem;
+  border: 4px solid black;
+}
+
+.product-grid span {
+  background-color: black;
+  color: white;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem auto;
+}
+
+
+.exploding-pen {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.exploding-pen img {
+  justify-content: center;
+  height: 9rem;
+  width: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: auto;
+}
+
+.cellular-watch {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.cellular-watch img {
+  justify-content: center;
+  height: 9rem;
+  width: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: auto;
+}
+
+.thermal-glasses {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.thermal-glasses img {
+  justify-content: center;
+  height: 60%;
+  width: 80%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: auto;
+}
+
+/* This is the Store Location and Hours section */
+
+.store {
+  width: 960px;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.store-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+  padding-top: 3rem;
+}
+
+.store-info p {
+  background-color: black;
+  color: white;
+  height: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.store-info span {
+  height: 1rem;
+  padding-top: 0.5rem;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 35%;
+  padding-bottom: 4rem;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 35%;
+  padding-bottom: 4rem;
 }
