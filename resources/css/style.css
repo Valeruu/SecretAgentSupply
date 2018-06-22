@@ -279,7 +279,7 @@ footer span {
 
 /* Media Query for Screens with a max-width of 1024px*/
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width: 500px) {
   .main-banner {
     margin-left: 0rem;
   }
@@ -311,10 +311,26 @@ footer span {
 
 /* Media Query for Screens with a max-width of 470px*/
 
+
 @media only screen and (max-width: 470px) {
+  .desktop {
+    display: none;
+  }
   .mobile ul {
     justify-content: center;
     align-items: center;
+  }
+  .main-banner {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 0rem;
+    margin-top: 15rem;
+  }
+  .main-banner span {
+    font-size: 0.77rem;
+  }
+  .main-banner p {
+    font-size: 1rem;
   }
   .product-grid {
     max-width: 470px;
@@ -328,5 +344,32 @@ footer span {
   }
   .product-grid .thermal-glasses {
     display: none;
+  }
+  .store-info {
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+  }
+  .location {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 0;
+    padding-bottom: 4rem;
+  }
+  .hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 90%;
+    padding-bottom: 4rem;
+    margin-top: 0;
+  }
+  footer {
+    margin-top: 6rem;
+  }
+  footer span {
+    width: 470px;
+    text-align: center;
   }
 }
