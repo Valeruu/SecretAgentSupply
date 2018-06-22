@@ -313,31 +313,47 @@ footer span {
 
 
 @media only screen and (max-width: 470px) {
+  body {
+  max-width: 470px;
+  }
   .desktop {
     display: none;
+  }
+  .mobile {
+    margin-top: 2rem;
   }
   .mobile ul {
     justify-content: center;
     align-items: center;
   }
+  .banner-container {
+    height: 15rem;
+  }
   .main-banner {
     width: 100%;
+    height: 3rem;
     margin-bottom: 0px;
     margin-left: 0rem;
-    margin-top: 15rem;
+    margin-top: 10rem;
   }
   .main-banner span {
     font-size: 0.77rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 2rem;
   }
   .main-banner p {
     font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
   }
-  .product-grid {
-    max-width: 470px;
+  .agent-tech {
+    width: 470px;
   }
   .product-grid .exploding-pen {
     width: 90%;
     height: auto;
+    margin-left: 0.75rem;
   }
   .product-grid .cellular-watch {
     display: none;
@@ -345,10 +361,16 @@ footer span {
   .product-grid .thermal-glasses {
     display: none;
   }
+  .store {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0.75rem;
+  }
   .store-info {
     display: flex;
     flex-direction: column;
     height: 15rem;
+    width: 470px;
   }
   .location {
     display: flex;
