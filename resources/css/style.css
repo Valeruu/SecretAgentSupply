@@ -268,8 +268,16 @@ footer span {
 
 /* This is the media query section */
 
-@media only screen and (max-width: 1024px)
+  /* Media Query for Screens wider than 1024px*/
 
+
+@media only screen and (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+}
+
+/* Media Query for Screens with a max-width of 1024px*/
 
 @media only screen and (max-width: 1024px) {
   .main-banner {
@@ -278,16 +286,47 @@ footer span {
   .main-banner span {
     font-size: 0.75rem;
   }
-  .nav .desktop {
+  .desktop {
     display: none;
   }
+  .mobile ul {
+    justify-content: center;
+    align-items: center;
+  }
   .product-grid {
+    max-width: 960px;
+  }
+  .product-grid .exploding-pen {
     width: 47%;
+    height: auto;
+  }
+  .product-grid .cellular-watch {
+    width: 47%;
+    height: auto;
   }
   .product-grid .thermal-glasses {
     display: none;
   }
 }
 
+/* Media Query for Screens with a max-width of 470px*/
 
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 470px) {
+  .mobile ul {
+    justify-content: center;
+    align-items: center;
+  }
+  .product-grid {
+    max-width: 470px;
+  }
+  .product-grid .exploding-pen {
+    width: 90%;
+    height: auto;
+  }
+  .product-grid .cellular-watch {
+    display: none;
+  }
+  .product-grid .thermal-glasses {
+    display: none;
+  }
+}
