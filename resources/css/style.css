@@ -314,7 +314,7 @@ footer span {
 
 @media only screen and (max-width: 470px) {
   body {
-  max-width: 470px;
+    max-width: 470px;
   }
   .desktop {
     display: none;
@@ -348,7 +348,7 @@ footer span {
     margin-left: 2rem;
   }
   .agent-tech {
-    width: 470px;
+    width: 100%;
   }
   .product-grid .exploding-pen {
     width: 90%;
@@ -365,12 +365,13 @@ footer span {
     display: flex;
     flex-direction: column;
     margin: 3rem 0.75rem;
+    width: 100%
   }
   .store-info {
     display: flex;
     flex-direction: column;
     height: 15rem;
-    width: 470px;
+    width: 100%;
   }
   .location {
     display: flex;
@@ -391,7 +392,7 @@ footer span {
     margin-top: 6rem;
   }
   footer span {
-    width: 470px;
+    width: 100%;
     text-align: center;
   }
 }
